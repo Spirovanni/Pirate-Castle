@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-echarts-bar',
+  selector: 'jhi-echarts-bar',
   template: `
     <div echarts [options]="options" class="echart"></div>
   `,
@@ -15,7 +15,7 @@ export class EchartsBarComponent implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
 
       const colors: any = config.variables;
       const echarts: any = config.variables.echarts;
