@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-icons',
+  selector: 'jhi-icons',
   styleUrls: ['./icons.component.scss'],
   templateUrl: './icons.component.html',
 })

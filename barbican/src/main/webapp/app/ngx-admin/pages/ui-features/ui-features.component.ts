@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-ui-features',
+  selector: 'jhi-ui-features',
   template: `
     <router-outlet></router-outlet>
   `,
