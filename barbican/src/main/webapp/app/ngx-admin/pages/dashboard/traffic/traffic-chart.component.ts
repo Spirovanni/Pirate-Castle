@@ -6,7 +6,7 @@ declare const echarts: any;
 const points = [300, 520, 435, 530, 730, 620, 660, 860];
 
 @Component({
-  selector: 'ngx-traffic-chart',
+  selector: 'jhi-traffic-chart',
   styleUrls: ['./traffic.component.scss'],
   template: `
     <div echarts [options]="option" class="echart"></div>

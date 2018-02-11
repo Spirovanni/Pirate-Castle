@@ -2,7 +2,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-hero-buttons',
+  selector: 'jhi-hero-buttons',
   styleUrls: ['./hero-buttons.component.scss'],
   templateUrl: './hero-buttons.component.html',
 })
