@@ -2,9 +2,9 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-d3-bar',
+  selector: 'jhi-d3-bar',
   template: `
-    <ngx-charts-bar-vertical
+    <jhi-charts-bar-vertical
       [scheme]="colorScheme"
       [results]="results"
       [xAxis]="showXAxis"
@@ -12,7 +12,7 @@ import { NbThemeService } from '@nebular/theme';
       [legend]="showLegend"
       [xAxisLabel]="xAxisLabel"
       [yAxisLabel]="yAxisLabel">
-    </ngx-charts-bar-vertical>
+    </jhi-charts-bar-vertical>
   `,
 })
 export class D3BarComponent implements OnDestroy {
@@ -31,7 +31,7 @@ export class D3BarComponent implements OnDestroy {
   themeSubscription: any;
 
   constructor(private theme: NbThemeService) {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
       const colors: any = config.variables;
       this.colorScheme = {
         domain: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warningLight, colors.dangerLight],

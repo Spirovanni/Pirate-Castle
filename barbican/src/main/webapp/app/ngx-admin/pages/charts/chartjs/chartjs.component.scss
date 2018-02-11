@@ -1,12 +1,12 @@
 @import '../../../@theme/styles/themes';
 
 @include nb-install-component() {
-  ngx-chartjs-pie,
-  ngx-chartjs-bar,
-  ngx-chartjs-line,
-  ngx-chartjs-multiple-xaxis,
-  ngx-chartjs-bar-horizontal,
-  ngx-chartjs-radar {
+  jhi-chartjs-pie,
+  jhi-chartjs-bar,
+  jhi-chartjs-line,
+  jhi-chartjs-multiple-xaxis,
+  jhi-chartjs-bar-horizontal,
+  jhi-chartjs-radar {
     display: block;
     height: nb-theme(card-height-medium);
     width: 100%;
