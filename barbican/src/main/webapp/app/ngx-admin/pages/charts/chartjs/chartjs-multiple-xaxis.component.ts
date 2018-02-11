@@ -2,7 +2,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-chartjs-multiple-xaxis',
+  selector: 'jhi-chartjs-multiple-xaxis',
   template: `
     <chart type="line" [data]="data" [options]="options"></chart>
   `,

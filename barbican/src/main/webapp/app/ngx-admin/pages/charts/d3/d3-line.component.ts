@@ -2,9 +2,9 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-d3-line',
+  selector: 'jhi-d3-line',
   template: `
-    <ngx-charts-line-chart
+    <jhi-charts-line-chart
       [scheme]="colorScheme"
       [results]="multi"
       [xAxis]="showXAxis"
@@ -14,7 +14,7 @@ import { NbThemeService } from '@nebular/theme';
       [showYAxisLabel]="showYAxisLabel"
       [xAxisLabel]="xAxisLabel"
       [yAxisLabel]="yAxisLabel">
-    </ngx-charts-line-chart>
+    </jhi-charts-line-chart>
   `,
 })
 export class D3LineComponent implements OnDestroy {
@@ -70,7 +70,7 @@ export class D3LineComponent implements OnDestroy {
   themeSubscription: any;
 
   constructor(private theme: NbThemeService) {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
       const colors: any = config.variables;
       this.colorScheme = {
         domain: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warningLight, colors.dangerLight],

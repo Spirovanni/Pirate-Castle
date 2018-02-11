@@ -2,9 +2,9 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-d3-area-stack',
+  selector: 'jhi-d3-area-stack',
   template: `
-    <ngx-charts-area-chart
+    <jhi-charts-area-chart
       [scheme]="colorScheme"
       [results]="multi"
       [xAxis]="showXAxis"
@@ -15,7 +15,7 @@ import { NbThemeService } from '@nebular/theme';
       [xAxisLabel]="xAxisLabel"
       [yAxisLabel]="yAxisLabel"
       [autoScale]="autoScale">
-    </ngx-charts-area-chart>
+    </jhi-charts-area-chart>
   `,
 })
 export class D3AreaStackComponent implements OnDestroy {
@@ -59,7 +59,7 @@ export class D3AreaStackComponent implements OnDestroy {
   themeSubscription: any;
 
   constructor(private theme: NbThemeService) {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
       const colors: any = config.variables;
       this.colorScheme = {
         domain: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warningLight, colors.dangerLight],
