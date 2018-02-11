@@ -1,4 +1,4 @@
-## Version 00.00.10
+## Version 00.00.11
 
 # Pirate-Castle
-This is te base project for  Black Shields Home site.
+This is the base project for  Black Shields Home site.

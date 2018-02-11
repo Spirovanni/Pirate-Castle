@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ea263a-c668-475d-b0f3-2806259edb1f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/alan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/camera1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/camera2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/camera3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/camera4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/cover1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/cover2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/cover3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/eva.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/jack.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/kate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/kitten-cosmic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/kitten-default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/lee.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/nick.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/square_pattern.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/square_pattern_cosmic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/images/team.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/content.inline.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/content.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/anchor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/object.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/trans.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/skin.ie7.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/skins/lightgray/skin.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/vendors/echarts.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/assets/vendors/echarts.world.min.js" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app-routing.module.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app-routing.module.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#158#182#0" expanded="true" />
@@ -68,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -190,13 +226,13 @@
             <path>
               <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,12 +361,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518306717446</updated>
       <workItem from="1518306723866" duration="3755000" />
-      <workItem from="1518317998556" duration="4805000" />
+      <workItem from="1518317998556" duration="5424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8560000" />
+    <option name="totallyTimeSpent" value="9179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="0" width="1210" height="728" extended-state="0" />
@@ -408,7 +444,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#0#75#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -416,7 +452,7 @@
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -434,7 +470,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -450,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#158#182#0" expanded="true" />
@@ -463,8 +499,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#158#182#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#158#182#0" expanded="false" />
           </folding>
         </state>
       </provider>
