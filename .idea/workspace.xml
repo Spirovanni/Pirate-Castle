@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ea263a-c668-475d-b0f3-2806259edb1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Pirate-Castle.iml" afterPath="$PROJECT_DIR$/.idea/Pirate-Castle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -210,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518306717446</updated>
-      <workItem from="1518306723866" duration="2807000" />
+      <workItem from="1518306723866" duration="3755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2807000" />
+    <option name="totallyTimeSpent" value="3755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="231" y="23" width="1111" height="728" extended-state="0" />
