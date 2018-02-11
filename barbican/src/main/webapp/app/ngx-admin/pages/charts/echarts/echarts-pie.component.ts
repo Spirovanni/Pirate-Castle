@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-echarts-pie',
+  selector: 'jhi-echarts-pie',
   template: `
     <div echarts [options]="options" class="echart"></div>
   `,
@@ -15,7 +15,7 @@ export class EchartsPieComponent implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
 
       const colors = config.variables;
       const echarts: any = config.variables.echarts;

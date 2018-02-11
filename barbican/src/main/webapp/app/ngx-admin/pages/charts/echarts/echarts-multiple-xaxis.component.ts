@@ -2,7 +2,7 @@ import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-echarts-multiple-xaxis',
+  selector: 'jhi-echarts-multiple-xaxis',
   template: `
     <div echarts [options]="options" class="echart"></div>
   `,
@@ -15,7 +15,7 @@ export class EchartsMultipleXaxisComponent implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
 
       const colors: any = config.variables;
       const echarts: any = config.variables.echarts;
@@ -58,7 +58,7 @@ export class EchartsMultipleXaxisComponent implements AfterViewInit, OnDestroy {
             },
             axisPointer: {
               label: {
-                formatter: params => {
+                formatter: (params) => {
                   return (
                     'Precipitation  ' + params.value + (params.seriesData.length ? '：' + params.seriesData[0].data : '')
                   );
@@ -98,7 +98,7 @@ export class EchartsMultipleXaxisComponent implements AfterViewInit, OnDestroy {
             },
             axisPointer: {
               label: {
-                formatter: params => {
+                formatter: (params) => {
                   return (
                     'Precipitation  ' + params.value + (params.seriesData.length ? '：' + params.seriesData[0].data : '')
                   );
