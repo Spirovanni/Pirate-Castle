@@ -2,30 +2,311 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ea263a-c668-475d-b0f3-2806259edb1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/barbican/package.json" afterPath="$PROJECT_DIR$/barbican/package.json" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar-horizontal.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar-horizontal.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-line.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-line.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-multiple-xaxis.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-multiple-xaxis.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-pie.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-pie.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-radar.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-radar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.html" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.html" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.scss" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.scss" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/charts.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/charts.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-advanced-pie.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-advanced-pie.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-area-stack.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-area-stack.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-bar.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-bar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-line.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-line.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-pie.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-pie.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-polar.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-polar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.html" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.html" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.ts" />
-      <change beforePath="$PROJECT_DIR$/barbican/yarn.lock" afterPath="$PROJECT_DIR$/barbican/yarn.lock" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/tiny-mce/tiny-mce.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/tiny-mce/tiny-mce.component.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.ts" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.angular-cli.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.stylelintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.vscode/launch.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/.vscode/settings.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/CODE_OF_CONDUCT.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/DEV_DOCS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/e2e/tsconfig.e2e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/core.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/data.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/electricity.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/player.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/smart-table.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/state.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/data/users.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/module-import-guard.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/utils/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@core/utils/analytics.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/footer/footer.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/footer/footer.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/header/header.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/header/header.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/header/header.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/search-input/search-input.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/search-input/search-input.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/theme-settings/theme-settings.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/theme-settings/theme-settings.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/theme-switcher/theme-switcher.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/theme-switcher/theme-switcher.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/components/tiny-mce/tiny-mce.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/directives/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/one-column/one-column.layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/one-column/one-column.layout.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/sample/sample.layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/sample/sample.layout.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/three-columns/three-columns.layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/three-columns/three-columns.layout.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/two-columns/two-columns.layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/layouts/two-columns/two-columns.layout.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/capitalize.pipe.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/plural.pipe.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/round.pipe.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/pipes/timing.pipe.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/styles/pace.theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/styles/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/styles/theme.cosmic.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/styles/theme.default.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/styles/themes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/@theme/theme.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/app-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/app.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/app.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-bar-horizontal.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-bar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-line.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-multiple-xaxis.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-pie.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs-radar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/chartjs/chartjs.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/charts-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/charts.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/charts.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-advanced-pie.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-area-stack.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-bar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-line.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-pie.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3-polar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/d3/d3.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-area-stack.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-bar-animation.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-bar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-line.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-multiple-xaxis.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-pie.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts-radar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/charts/echarts/echarts.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/components-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/components.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/components.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/notifications/notifications.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/notifications/notifications.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/notifications/notifications.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/tree/tree.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/components/tree/tree.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/contacts/contacts.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/contacts/contacts.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/contacts/contacts.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/dashboard.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/dashboard.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/dashboard.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/dashboard.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/electricity/electricity-chart/electricity-chart.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/electricity/electricity-chart/electricity-chart.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/electricity/electricity.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/electricity/electricity.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/electricity/electricity.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/kitten/kitten.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/kitten/kitten.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/kitten/kitten.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/player/player.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/player/player.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/player/player.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/room-selector/room-selector.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/room-selector/room-selector.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/room-selector/room-selector.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/rooms.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/rooms/rooms.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/security-cameras/security-cameras.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/security-cameras/security-cameras.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/security-cameras/security-cameras.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/solar/solar.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/solar/solar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/status-card/status-card.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/status-card/status-card.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/team/team.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/team/team.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/team/team.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/temperature/temperature.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/traffic/traffic-chart.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/traffic/traffic.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/traffic/traffic.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/weather/weather.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/weather/weather.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/dashboard/weather/weather.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/ckeditor/ckeditor.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/ckeditor/ckeditor.loader.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/editors-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/editors.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/editors.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/editors/tiny-mce/tiny-mce.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-inputs/form-inputs.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-inputs/form-inputs.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-inputs/form-inputs.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-layouts/form-layouts.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-layouts/form-layouts.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/form-layouts/form-layouts.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/forms-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/forms.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/forms/forms.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/bubble/bubble-map.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/bubble/bubble-map.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/gmaps/gmaps.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/gmaps/gmaps.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/leaflet/leaflet.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/leaflet/leaflet.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/maps-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/maps.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/maps/maps.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/pages-menu.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/pages-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/pages.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/pages.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/tables/smart-table/smart-table.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/tables/smart-table/smart-table.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/tables/tables-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/tables/tables.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/tables/tables.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/action-groups/action-groups.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/action-groups/action-groups.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/action-groups/action-groups.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/button-groups/button-groups.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/button-groups/button-groups.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/button-groups/button-groups.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/buttons.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/default-buttons/default-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/hero-buttons/hero-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/icon-buttons/icon-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/shape-buttons/shape-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/buttons/size-buttons/size-buttons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/grid/grid.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/grid/grid.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/grid/grid.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/icons/icons.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/icons/icons.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/icons/icons.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/modals/modal/modal.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/modals/modal/modal.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/modals/modals.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/modals/modals.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/modals/modals.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/search-fields/search-fields.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/search-fields/search-fields.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/tabs/tabs.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/tabs/tabs.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/tabs/tabs.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/typography/typography.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/typography/typography.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/typography/typography.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/ui-features-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/ui-features.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/pages/ui-features/ui-features.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/app/typings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/alan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/camera1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/camera2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/camera3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/camera4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/cover1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/cover2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/cover3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/eva.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/jack.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/kate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/kitten-cosmic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/kitten-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/lee.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/nick.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/square_pattern.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/square_pattern_cosmic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/images/team.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/content.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/img/loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/img/object.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/img/trans.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/skins/lightgray/skin.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/vendors/echarts.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/assets/vendors/echarts.world.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/environments/environment.prod.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/environments/environment.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/main.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/polyfills.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/test.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/tsconfig.app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/tsconfig.spec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/src/typings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ngx-admin-master/tslint.json" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,32 +334,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="d3.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1518309958075" expanded="true" signature="2326:2516" ph="..." />
-                  <marker date="1518309958075" expanded="true" signature="2366:2507" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -144,6 +399,16 @@
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-line.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-bar.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-area-stack.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/tiny-mce/tiny-mce.component.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.ts" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -159,7 +424,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="3" />
-    <option name="width" value="1181" />
+    <option name="width" value="968" />
     <option name="height" value="732" />
   </component>
   <component name="ProjectView">
@@ -230,6 +495,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="theme-settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="theme-switcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,8 +566,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="one-column" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
@@ -252,55 +580,9 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="chartjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="d3" type="462c0819:PsiDirectoryNode" />
+              <item name="@theme" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,15 +711,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518306717446</updated>
       <workItem from="1518306723866" duration="3755000" />
-      <workItem from="1518317998556" duration="20228000" />
+      <workItem from="1518317998556" duration="22502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23983000" />
+    <option name="totallyTimeSpent" value="26257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="0" width="1181" height="732" extended-state="0" />
+    <frame x="3" y="0" width="968" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -453,7 +735,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16995709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2079832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -509,71 +791,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#75#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngx-admin-master/src/app/typings.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngx-admin-master/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#69#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -820,7 +1037,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518369476926" expanded="true" signature="182:321" ph="..." />
           </folding>
         </state>
@@ -831,7 +1048,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518369476592" expanded="true" signature="186:523" ph="..." />
           </folding>
         </state>
@@ -850,7 +1067,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,7 +1077,7 @@
         <state relative-caret-position="296">
           <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518370041540" expanded="true" signature="184:490" ph="..." />
           </folding>
         </state>
@@ -871,7 +1088,7 @@
         <state relative-caret-position="333">
           <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518370318310" expanded="true" signature="185:415" ph="..." />
           </folding>
         </state>
@@ -882,7 +1099,7 @@
         <state relative-caret-position="444">
           <caret line="64" column="84" lean-forward="true" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518370318652" expanded="true" signature="190:526" ph="..." />
           </folding>
         </state>
@@ -893,7 +1110,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
             <marker date="1518369478774" expanded="true" signature="200:291" ph="..." />
           </folding>
         </state>
@@ -918,6 +1135,166 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="120" lean-forward="false" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+          <folding>
+            <marker date="1518375430926" expanded="true" signature="295:587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1518375430961" expanded="true" signature="242:275" ph="..." />
+            <marker date="1518375430961" expanded="true" signature="334:463" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/tiny-mce/tiny-mce.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1518375925742" expanded="true" signature="208:956" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="239:307" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="378:657" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="407:586" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="468:557" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="697:723" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="755:838" ph="..." />
+            <marker date="1518375925742" expanded="true" signature="870:938" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1518375958101" expanded="true" signature="212:1025" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="243:311" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="382:661" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="411:590" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="472:561" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="701:727" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="759:842" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="882:908" ph="..." />
+            <marker date="1518375958101" expanded="true" signature="940:1008" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+            <marker date="1518375864274" expanded="true" signature="609:2061" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="640:765" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="806:1204" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="954:1133" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1015:1104" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1251:1334" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1446:1518" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1601:1673" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1705:1773" ph="..." />
+            <marker date="1518375864274" expanded="true" signature="1818:2044" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1518375958153" expanded="true" signature="206:880" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="237:305" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="376:654" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="404:583" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="465:554" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="680:763" ph="..." />
+            <marker date="1518375958153" expanded="true" signature="795:863" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <marker date="1518375431142" expanded="true" signature="402:680" ph="..." />
+            <marker date="1518375431142" expanded="true" signature="468:626" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1518375431056" expanded="true" signature="272:516" ph="..." />
+            <marker date="1518375431056" expanded="true" signature="313:505" ph="..." />
+            <marker date="1518375431056" expanded="true" signature="568:819" ph="..." />
+            <marker date="1518375431056" expanded="true" signature="611:808" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
