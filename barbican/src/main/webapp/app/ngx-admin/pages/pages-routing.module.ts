@@ -11,36 +11,43 @@ const routes: Routes = [{
     path: 'dashboard',
     component: DashboardComponent,
   }, {
-    path: 'ui-features',
-    loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
+      path: 'ui-features',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./ui-features/ui-features.module').UiFeaturesModule); })  })
   }, {
-    path: 'components',
-    loadChildren: './components/components.module#ComponentsModule',
+      path: 'components',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./components/components.module').ComponentsModule); })  })
   }, {
-    path: 'maps',
-    loadChildren: './maps/maps.module#MapsModule',
+      path: 'maps',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./maps/maps.module').MapsModule); })  })
   }, {
-    path: 'charts',
-    loadChildren: './charts/charts.module#ChartsModule',
+      path: 'charts',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./charts/charts.module').ChartsModule); })  })
   }, {
-    path: 'editors',
-    loadChildren: './editors/editors.module#EditorsModule',
+      path: 'editors',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./editors/editors.module').EditorsModule); })  })
   }, {
-    path: 'forms',
-    loadChildren: './forms/forms.module#FormsModule',
+      path: 'forms',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./forms/forms.module').FormsModule); })  })
   }, {
-    path: 'tables',
-    loadChildren: './tables/tables.module#TablesModule',
+      path: 'tables',
+      loadChildren: () => new Promise(resolve => {
+          (require as any).ensure([], require => {resolve(require('./tables/tables.module').TablesModule); })  })
   }, {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full',
+      path: '',
+      redirectTo: 'dashboard',
+      pathMatch: 'full',
   }],
 }];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule],
 })
 export class PagesRoutingModule {
 }
