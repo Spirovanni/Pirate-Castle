@@ -4,6 +4,7 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 
+import '../vendor.ts';
 import './typings.d.ts';
 
 import { APP_BASE_HREF } from '@angular/common';
