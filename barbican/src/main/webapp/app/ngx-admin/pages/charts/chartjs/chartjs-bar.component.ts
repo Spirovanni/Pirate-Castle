@@ -13,7 +13,7 @@ export class ChartjsBarComponent implements OnDestroy {
   themeSubscription: any;
 
   constructor(private theme: NbThemeService) {
-    this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
+    this.themeSubscription = this.theme.getJsTheme().subscribe((config) => {
 
       const colors: any = config.variables;
       const chartjs: any = config.variables.chartjs;
