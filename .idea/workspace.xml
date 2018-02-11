@@ -2,14 +2,229 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ea263a-c668-475d-b0f3-2806259edb1f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/~$DevTracker.xlsx" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pirate-Castle.iml" afterPath="$PROJECT_DIR$/.idea/Pirate-Castle.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/core.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/data.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/electricity.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/player.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/smart-table.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/state.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/data/users.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/module-import-guard.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/utils/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@core/utils/analytics.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/footer/footer.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/search-input/search-input.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-settings/theme-settings.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/theme-switcher/theme-switcher.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/tiny-mce/tiny-mce.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/directives/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/one-column/one-column.layout.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/sample/sample.layout.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/three-columns/three-columns.layout.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/layouts/two-columns/two-columns.layout.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/capitalize.pipe.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/plural.pipe.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/round.pipe.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/pipes/timing.pipe.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/styles/pace.theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/styles/styles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/styles/theme.cosmic.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/styles/theme.default.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/styles/themes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/theme.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar-horizontal.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-bar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-line.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-multiple-xaxis.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-pie.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs-radar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/chartjs/chartjs.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/charts-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/charts.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/charts.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-advanced-pie.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-area-stack.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-bar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-line.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-pie.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3-polar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/d3/d3.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-area-stack.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-bar-animation.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-bar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-line.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-multiple-xaxis.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-pie.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts-radar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/charts/echarts/echarts.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/components-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/components.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/components.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/notifications/notifications.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/notifications/notifications.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/notifications/notifications.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/tree/tree.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/tree/tree.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/contacts/contacts.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/contacts/contacts.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/contacts/contacts.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/dashboard.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/dashboard.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/dashboard.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/dashboard.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity-chart/electricity-chart.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity-chart/electricity-chart.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/kitten/kitten.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/kitten/kitten.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/kitten/kitten.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/player/player.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/player/player.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/player/player.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/room-selector/room-selector.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/room-selector/room-selector.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/room-selector/room-selector.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/security-cameras/security-cameras.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/security-cameras/security-cameras.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/security-cameras/security-cameras.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/solar/solar.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/solar/solar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/status-card/status-card.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/status-card/status-card.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/team/team.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/team/team.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/team/team.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature-dragger/temperature-dragger.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/temperature/temperature.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/traffic/traffic-chart.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/traffic/traffic.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/traffic/traffic.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/weather/weather.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/weather/weather.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/weather/weather.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/ckeditor/ckeditor.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/ckeditor/ckeditor.loader.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/editors-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/editors.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/editors.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/editors/tiny-mce/tiny-mce.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-inputs/form-inputs.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-inputs/form-inputs.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-inputs/form-inputs.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-layouts/form-layouts.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-layouts/form-layouts.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/form-layouts/form-layouts.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/forms-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/forms.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/forms/forms.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/bubble/bubble-map.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/bubble/bubble-map.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/gmaps/gmaps.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/gmaps/gmaps.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/leaflet/leaflet.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/leaflet/leaflet.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/maps-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/maps.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/maps/maps.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages-menu.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/tables/smart-table/smart-table.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/tables/smart-table/smart-table.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/tables/tables-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/tables/tables.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/tables/tables.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/action-groups/action-groups.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/action-groups/action-groups.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/action-groups/action-groups.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/block-level-buttons/block-level-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/button-groups/button-groups.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/button-groups/button-groups.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/button-groups/button-groups.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/buttons.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/default-buttons/default-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/default-buttons/default-buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/default-buttons/default-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/dropdown-buttons/dropdown-button.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/hero-buttons/hero-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/hero-buttons/hero-buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/hero-buttons/hero-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/icon-buttons/icon-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/icon-buttons/icon-buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/icon-buttons/icon-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/labeled-actions-group/labeled-actions-group.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/shape-buttons/shape-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/shape-buttons/shape-buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/shape-buttons/shape-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/size-buttons/size-buttons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/size-buttons/size-buttons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/buttons/size-buttons/size-buttons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/grid/grid.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/grid/grid.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/grid/grid.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/icons/icons.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/icons/icons.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/icons/icons.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/modals/modal/modal.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/modals/modal/modal.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/modals/modals.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/modals/modals.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/modals/modals.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/search-fields/search-fields.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/search-fields/search-fields.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/tabs/tabs.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/tabs/tabs.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/tabs/tabs.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/typography/typography.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/typography/typography.component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/typography/typography.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/ui-features-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/ui-features.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/ui-features/ui-features.module.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DevTracker.xlsx" afterPath="$PROJECT_DIR$/DevTracker.xlsx" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/barbican/package.json" afterPath="$PROJECT_DIR$/barbican/package.json" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" afterPath="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/barbican/yarn.lock" afterPath="$PROJECT_DIR$/barbican/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +261,7 @@
       <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="731">
               <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding />
             </state>
@@ -140,7 +355,7 @@
               <item name="barbican" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
@@ -148,8 +363,26 @@
               <item name="barbican" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,6 +396,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Staff2\dev\Pirate-Castle\barbican\src\main\webapp\app\ngx-admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,12 +510,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518306717446</updated>
       <workItem from="1518306723866" duration="3755000" />
-      <workItem from="1518317998556" duration="1024000" />
+      <workItem from="1518317998556" duration="2375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4779000" />
+    <option name="totallyTimeSpent" value="6130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="231" y="0" width="1111" height="728" extended-state="0" />
@@ -291,7 +529,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60714287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43344155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24931507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="731">
           <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding />
         </state>
