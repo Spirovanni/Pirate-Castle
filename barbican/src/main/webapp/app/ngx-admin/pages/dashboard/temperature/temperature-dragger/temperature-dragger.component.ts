@@ -11,11 +11,28 @@ const VIEW_BOX_SIZE = 300;
 })
 export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
 
-  @ViewChild('svgRoot') svgRoot: ElementRef;
+    off = false;
+    oldValue: number;
 
-  @Input() fillColors: string|string[] = '#2ec6ff';
-  @Input() disableArcColor = '#999999';
-  @Input() bottomAngle = 90;
+    svgControlId = new Date().getTime();
+    scaleFactor = 1;
+    bottomAngleRad = 0;
+    radius = 100;
+    translateXValue = 0;
+    translateYValue = 0;
+    thickness = 6;
+    pinRadius = 10;
+    colors: any = [];
+
+    private static toRad(angle) {
+        return Math.PI * angle / 180;
+    }
+
+    @ViewChild('svgRoot') svgRoot: ElementRef;
+
+    @Input() fillColors: string|string[] = '#2ec6ff';
+    @Input() disableArcColor = '#999999';
+    @Input() bottomAngle = 90;
   @Input() arcThickness = 18; // CSS pixels
   @Input() thumbRadius = 16; // CSS pixels
   @Input() thumbBorder = 3;
@@ -48,19 +65,6 @@ export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
   onResize(event) {
     this.invalidate();
   }
-
-  off = false;
-  oldValue: number;
-
-  svgControlId = new Date().getTime();
-  scaleFactor = 1;
-  bottomAngleRad = 0;
-  radius = 100;
-  translateXValue = 0;
-  translateYValue = 0;
-  thickness = 6;
-  pinRadius = 10;
-  colors: any = [];
 
   styles = {
     viewBox: '0 0 300 300',
@@ -139,7 +143,6 @@ export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
 
     this.scaleFactor = svgBoundingRect.width / VIEW_BOX_SIZE || 1;
     this.styles.viewBox = `0 0 ${VIEW_BOX_SIZE} ${svgHeight}`;
-
 
     const circleFactor = this.bottomAngleRad <= Math.PI
       ? ( 2 / (1 + Math.cos(halfAngle)) )
@@ -347,7 +350,4 @@ export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
     return Math.round(factor * (this.max - this.min) / this.step) * this.step + this.min;
   }
 
-  private static toRad(angle) {
-    return Math.PI * angle / 180;
-  }
 }

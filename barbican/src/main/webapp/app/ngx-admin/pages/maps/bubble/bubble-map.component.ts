@@ -28,7 +28,7 @@ export class BubbleMapComponent implements OnDestroy {
   constructor(private theme: NbThemeService) {
 
     this.themeSubscription = this.theme.getJsTheme()
-      .subscribe(config => {
+      .subscribe((config) => {
 
         const colors = config.variables;
         this.bubbleTheme = config.variables.bubbleMap;
@@ -468,7 +468,7 @@ export class BubbleMapComponent implements OnDestroy {
           },
           tooltip: {
             trigger: 'item',
-            formatter: params => {
+            formatter: (params) => {
               return `${params.name}: ${params.value[2]}`;
             },
           },
@@ -505,7 +505,7 @@ export class BubbleMapComponent implements OnDestroy {
             {
               type: 'scatter',
               coordinateSystem: 'geo',
-              data: this.mapData.map(itemOpt => {
+              data: this.mapData.map((itemOpt) => {
                 return {
                   name: itemOpt.name,
                   value: [
