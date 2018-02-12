@@ -7,8 +7,8 @@ import { NbThemeService, NbMediaBreakpoint, NbMediaBreakpointsService } from '@n
   template: `
     <nb-card [size]="breakpoint.width >= breakpoints.sm ? 'large' : 'medium'">
       <i (click)="collapse()" class="nb-arrow-down collapse" [hidden]="isCollapsed()"></i>
-      <ngx-room-selector (select)="select($event)"></ngx-room-selector>
-      <ngx-player [collapsed]="isCollapsed() && breakpoint.width <= breakpoints.md"></ngx-player>
+      <jhi-room-selector (select)="select($event)"></jhi-room-selector>
+      <jhi-player [collapsed]="isCollapsed() && breakpoint.width <= breakpoints.md"></jhi-player>
     </nb-card>
   `,
 })
