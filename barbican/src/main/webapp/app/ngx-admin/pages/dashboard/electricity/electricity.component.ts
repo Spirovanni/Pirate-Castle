@@ -21,7 +21,7 @@ export class ElectricityComponent implements OnDestroy {
   constructor(private eService: ElectricityService, private themeService: NbThemeService) {
     this.data = this.eService.getData();
 
-    this.themeSubscription = this.themeService.getJsTheme().subscribe(theme => {
+    this.themeSubscription = this.themeService.getJsTheme().subscribe((theme) => {
       this.currentTheme = theme.name;
     });
   }
