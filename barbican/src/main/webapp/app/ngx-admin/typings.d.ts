@@ -5,9 +5,9 @@
  */
 
 /* SystemJS module definition */
-declare var module: NodeModule;
+declare const module: NodeModule;
 interface NodeModule {
     id: string;
 }
 
-declare var tinymce: any;
+declare const tinymce: any;

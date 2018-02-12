@@ -5,7 +5,7 @@
  */
 
 import '../vendor.ts';
-import './typings.d.ts';
+// import './typings.d.ts';
 
 import { APP_BASE_HREF } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
