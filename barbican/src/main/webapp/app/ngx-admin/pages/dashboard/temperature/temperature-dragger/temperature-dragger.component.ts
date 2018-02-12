@@ -11,6 +11,30 @@ const VIEW_BOX_SIZE = 300;
 })
 export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
 
+    @ViewChild('svgRoot') svgRoot: ElementRef;
+
+    @Input() fillColors: string|string[] = '#2ec6ff';
+    @Input() disableArcColor = '#999999';
+    @Input() bottomAngle = 90;
+    @Input() arcThickness = 18; // CSS pixels
+    @Input() thumbRadius = 16; // CSS pixels
+    @Input() thumbBorder = 3;
+    @Input() maxLeap = 0.4;
+
+    @Output('valueChange') valueChange = new EventEmitter<Number>();
+    @Input('value') set setValue(value) {
+        this.value = value;
+    }
+
+    @Input() min = 0; // min output value
+    @Input() max = 100; // max output value
+    @Input() step = 0.1;
+
+    @Output() power = new EventEmitter<boolean>();
+
+    @HostListener('window:mouseup', ['$event'])
+
+    value = 50;
     off = false;
     oldValue: number;
 
@@ -24,33 +48,23 @@ export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
     pinRadius = 10;
     colors: any = [];
 
+    styles = {
+        viewBox: '0 0 300 300',
+        arcTranslateStr: 'translate(0, 0)',
+        clipPathStr: '',
+        gradArcs: [],
+        nonSelectedArc: {},
+        thumbPosition: { x: 0, y: 0 },
+        blurRadius: 15,
+    };
+
+    private isMouseDown = false;
+    private init = false;
+
     private static toRad(angle) {
         return Math.PI * angle / 180;
     }
 
-    @ViewChild('svgRoot') svgRoot: ElementRef;
-
-    @Input() fillColors: string|string[] = '#2ec6ff';
-    @Input() disableArcColor = '#999999';
-    @Input() bottomAngle = 90;
-  @Input() arcThickness = 18; // CSS pixels
-  @Input() thumbRadius = 16; // CSS pixels
-  @Input() thumbBorder = 3;
-  @Input() maxLeap = 0.4;
-
-  value = 50;
-  @Output('valueChange') valueChange = new EventEmitter<Number>();
-  @Input('value') set setValue(value) {
-    this.value = value;
-  }
-
-  @Input() min = 0; // min output value
-  @Input() max = 100; // max output value
-  @Input() step = 0.1;
-
-  @Output() power = new EventEmitter<boolean>();
-
-  @HostListener('window:mouseup', ['$event'])
   onMouseUp(event) {
     this.recalculateValue(event);
     this.isMouseDown = false;
@@ -65,19 +79,6 @@ export class TemperatureDraggerComponent implements AfterViewInit, OnChanges {
   onResize(event) {
     this.invalidate();
   }
-
-  styles = {
-    viewBox: '0 0 300 300',
-    arcTranslateStr: 'translate(0, 0)',
-    clipPathStr: '',
-    gradArcs: [],
-    nonSelectedArc: {},
-    thumbPosition: { x: 0, y: 0 },
-    blurRadius: 15,
-  };
-
-  private isMouseDown = false;
-  private init = false;
 
   constructor() {
     this.oldValue = this.value;
