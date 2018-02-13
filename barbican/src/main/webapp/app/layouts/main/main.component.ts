@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AnalyticsService } from '../../ngx-admin/@core/utils/analytics.service';
 import { Router, ActivatedRouteSnapshot, NavigationEnd } from '@angular/router';
 
 import { JhiLanguageHelper } from '../../shared';
@@ -10,6 +11,7 @@ import { JhiLanguageHelper } from '../../shared';
 export class JhiMainComponent implements OnInit {
 
     constructor(
+        private analytics: AnalyticsService,
         private jhiLanguageHelper: JhiLanguageHelper,
         private router: Router
     ) {}
@@ -28,5 +30,6 @@ export class JhiMainComponent implements OnInit {
                 this.jhiLanguageHelper.updateTitle(this.getPageTitle(this.router.routerState.snapshot.root));
             }
         });
+        this.analytics.trackPageViews();
     }
 }
