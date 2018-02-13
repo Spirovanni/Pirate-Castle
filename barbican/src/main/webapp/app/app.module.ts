@@ -12,7 +12,7 @@ import { ErrorHandlerInterceptor } from './blocks/interceptor/errorhandler.inter
 import { NotificationInterceptor } from './blocks/interceptor/notification.interceptor';
 import { BarbicanSharedModule, UserRouteAccessService } from './shared';
 import { BarbicanAppRoutingModule} from './app-routing.module';
-import { BarbicanHomeModule } from './home/home.module';
+import { BarbicanHomeModule } from './home';
 import { BarbicanAdminModule } from './admin/admin.module';
 import { BarbicanAccountModule } from './account/account.module';
 import { BarbicanEntityModule } from './entities/entity.module';
@@ -28,6 +28,10 @@ import {
     ErrorComponent
 } from './layouts';
 
+import { CoreModule } from './ngx-admin/@core/core.module';
+import { ThemeModule } from './ngx-admin/@theme/theme.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -39,6 +43,9 @@ import {
         BarbicanAccountModule,
         BarbicanEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
+        NgbModule.forRoot(),
+        ThemeModule.forRoot(),
+        CoreModule.forRoot(),
     ],
     declarations: [
         JhiMainComponent,
