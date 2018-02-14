@@ -19,6 +19,17 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {LocalStorageService, SessionStorageService} from "ngx-webstorage";
+import {AuthExpiredInterceptor} from "../blocks/interceptor/auth-expired.interceptor";
+import {PaginationConfig} from "../blocks/config/uib-pagination.config";
+import {AuthInterceptor} from "../blocks/interceptor/auth.interceptor";
+import {UserRouteAccessService} from "../shared";
+import {JhiEventManager} from "ng-jhipster";
+import {ErrorHandlerInterceptor} from "../blocks/interceptor/errorhandler.interceptor";
+import {NotificationInterceptor} from "../blocks/interceptor/notification.interceptor";
+import {
+    ProfileService
+} from './@theme/profiles/profile.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -34,10 +45,45 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   bootstrap: [AppComponent],
   providers: [
-    {
-
-        provide: APP_BASE_HREF, useValue: '/'
-    },
+      {
+          provide: APP_BASE_HREF, useValue: '/'
+      },
+      ProfileService,
+      PaginationConfig,
+      UserRouteAccessService,
+      {
+          provide: HTTP_INTERCEPTORS,
+          useClass: AuthInterceptor,
+          multi: true,
+          deps: [
+              LocalStorageService,
+              SessionStorageService
+          ]
+      },
+      {
+          provide: HTTP_INTERCEPTORS,
+          useClass: AuthExpiredInterceptor,
+          multi: true,
+          deps: [
+              Injector
+          ]
+      },
+      {
+          provide: HTTP_INTERCEPTORS,
+          useClass: ErrorHandlerInterceptor,
+          multi: true,
+          deps: [
+              JhiEventManager
+          ]
+      },
+      {
+          provide: HTTP_INTERCEPTORS,
+          useClass: NotificationInterceptor,
+          multi: true,
+          deps: [
+              Injector
+          ]
+      }
   ],
 })
 export class AppModule {
