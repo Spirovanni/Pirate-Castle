@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ea263a-c668-475d-b0f3-2806259edb1f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile-info.model.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile.service.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.html" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.html" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts" />
       <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/barbican/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/barbican/src/main/webapp/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,27 +19,26 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
-            <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="181">
-                    <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="43" />
+                  <state relative-caret-position="360">
+                    <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
                     <folding>
                       <element signature="n#!!doc" expanded="true" />
+                      <element signature="e#210#258#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+            <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="238">
-                    <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
-                    <folding>
-                      <element signature="e#157#207#0" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="-72">
+                    <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -65,58 +62,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="92">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
-                <element signature="e#1198#1379#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-ribbon.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.component.ts">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barbican/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="157">
+              <caret line="143" column="21" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -272,7 +247,6 @@
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/solar/solar.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/electricity/electricity-chart/electricity-chart.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/components/tree/tree.component.ts" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/components/header/header.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/typings.d.ts" />
@@ -288,13 +262,14 @@
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/pages/pages.component.ts" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile.service.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts" />
       </list>
     </option>
   </component>
@@ -308,7 +283,7 @@
     <handled-path value="$PROJECT_DIR$/barbican/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="808" />
+    <option name="width" value="736" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -326,9 +301,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -433,35 +407,13 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="@theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="@theme" type="462c0819:PsiDirectoryNode" />
-              <item name="profiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pirate-Castle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pirate-Castle" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,15 +539,16 @@
       <updated>1518306717446</updated>
       <workItem from="1518306723866" duration="3755000" />
       <workItem from="1518317998556" duration="45041000" />
-      <workItem from="1518412491876" duration="28796000" />
+      <workItem from="1518412491876" duration="30011000" />
+      <workItem from="1518588587353" duration="5599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77592000" />
+    <option name="totallyTimeSpent" value="84406000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="808" height="728" extended-state="0" />
+    <frame x="0" y="0" width="736" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -605,26 +558,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5209677" sideWeight="0.5028432" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21266234" sideWeight="0.49715677" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33279222" sideWeight="0.49715677" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29419193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36944443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62419355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62419355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-422">
           <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#55#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="185" column="9" lean-forward="true" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,15 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-293">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518375958153" expanded="true" signature="206:880" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="237:305" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="376:654" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="404:583" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="465:554" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="680:763" ph="..." />
-            <marker date="1518375958153" expanded="true" signature="795:863" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,18 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-976">
           <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <marker date="1518375864274" expanded="true" signature="609:2061" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="640:765" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="806:1204" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="954:1133" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1015:1104" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1251:1334" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1446:1518" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1601:1673" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1705:1773" ph="..." />
-            <marker date="1518375864274" expanded="true" signature="1818:2044" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,9 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#62#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-            <marker date="1518375431056" expanded="true" signature="272:516" ph="..." />
-            <marker date="1518375431056" expanded="true" signature="313:505" ph="..." />
-            <marker date="1518375431056" expanded="true" signature="568:819" ph="..." />
-            <marker date="1518375431056" expanded="true" signature="611:808" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,15 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="40" column="65836" lean-forward="true" selection-start-line="40" selection-start-column="65836" selection-end-line="40" selection-end-column="65836" />
-          <folding>
-            <marker date="1518499542052" expanded="true" signature="701045:701050" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="701290:701295" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="701424:701429" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="701900:701905" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="702061:702066" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="702222:702227" ph="°" />
-            <marker date="1518499542052" expanded="true" signature="702389:702394" ph="°" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,11 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-            <marker date="1518375431142" expanded="true" signature="402:680" ph="..." />
-            <marker date="1518375431142" expanded="true" signature="468:626" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2340">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#68#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,14 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <marker date="1518396001383" expanded="true" signature="227:898" ph="..." />
-            <marker date="1518396001383" expanded="true" signature="250:780" ph="..." />
-            <marker date="1518396001383" expanded="true" signature="349:756" ph="..." />
-            <marker date="1518396001383" expanded="true" signature="419:578" ph="..." />
-            <marker date="1518396001383" expanded="true" signature="631:741" ph="..." />
-            <marker date="1518396001383" expanded="true" signature="813:883" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-164">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="28" column="84" lean-forward="true" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <marker date="1518428657052" expanded="true" signature="333:609" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +792,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -933,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#65#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,17 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,27 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#75#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#157#207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,21 +854,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.ts">
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile-info.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/profiles/profile-info.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/profiles/profile.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1055,77 +909,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.component.ts">
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#75#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile.service.ts">
+    <entry file="file://$PROJECT_DIR$/barbican/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="157">
+          <caret line="143" column="21" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/profile-info.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/@theme/profiles/page-ribbon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/profiles/profile-info.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/profiles/profile.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#210#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="e#1198#1379#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/main/main.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="189">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/ngx-admin/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

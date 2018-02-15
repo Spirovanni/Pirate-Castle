@@ -19,14 +19,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {LocalStorageService, SessionStorageService} from "ngx-webstorage";
-import {AuthExpiredInterceptor} from "../blocks/interceptor/auth-expired.interceptor";
-import {PaginationConfig} from "../blocks/config/uib-pagination.config";
-import {AuthInterceptor} from "../blocks/interceptor/auth.interceptor";
-import {UserRouteAccessService} from "../shared";
-import {JhiEventManager} from "ng-jhipster";
-import {ErrorHandlerInterceptor} from "../blocks/interceptor/errorhandler.interceptor";
-import {NotificationInterceptor} from "../blocks/interceptor/notification.interceptor";
+import { LocalStorageService, SessionStorageService, Ng2Webstorage } from 'ngx-webstorage';
+import { AuthExpiredInterceptor } from '../blocks/interceptor/auth-expired.interceptor';
+import { BarbicanEntityModule } from '../entities/entity.module';
+import { PaginationConfig } from '../blocks/config/uib-pagination.config';
+import { AuthInterceptor } from '../blocks/interceptor/auth.interceptor';
+import { JhiEventManager } from 'ng-jhipster';
+import { ErrorHandlerInterceptor } from '../blocks/interceptor/errorhandler.interceptor';
+import { NotificationInterceptor } from '../blocks/interceptor/notification.interceptor';
+import { BarbicanSharedModule, UserRouteAccessService } from '../shared';
 import {
     ProfileService
 } from './@theme/profiles/profile.service';
@@ -36,9 +37,11 @@ import {
   imports: [
       BrowserModule,
       BrowserAnimationsModule,
+      Ng2Webstorage.forRoot({ prefix: 'jhi', separator: '-'}),
       HttpModule,
       AppRoutingModule,
-
+      BarbicanEntityModule,
+      BarbicanSharedModule,
       NgbModule.forRoot(),
       ThemeModule.forRoot(),
       CoreModule.forRoot(),
