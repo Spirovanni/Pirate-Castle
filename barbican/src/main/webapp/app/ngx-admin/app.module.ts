@@ -30,7 +30,7 @@ import { NotificationInterceptor } from '../blocks/interceptor/notification.inte
 import { BarbicanSharedModule, UserRouteAccessService } from '../shared';
 import {
     ProfileService
-} from './@theme/profiles/profile.service';
+} from '../layouts';
 
 @NgModule({
   declarations: [AppComponent],
