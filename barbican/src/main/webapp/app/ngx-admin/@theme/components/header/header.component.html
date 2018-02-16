@@ -179,7 +179,22 @@
     </nb-action>
   <nb-action class="control-item" disabled icon="nb-notifications"></nb-action>
   <nb-action class="control-item" icon="nb-home" aria-hidden="true"></nb-action>
+    <nb-action>
+    <div class="dropdown input-group-btn" ngbDropdown>
+        <button type="button" class="btn btn-success dropdown-toggle" ngbDropdownToggle>
+            Action
+        </button>
+        <ul class="dropdown-menu" ngbDropdownMenu>
+            <li class="dropdown-item">Action</li>
+            <li class="dropdown-item">Another action</li>
+            <li class="dropdown-item">Something else here</li>
+            <div role="separator" class="dropdown-divider"></div>
+            <li class="dropdown-item">Separated link</li>
+        </ul>
+    </div>
+    </nb-action>
+
   <nb-action class="control-item">
     <nb-search type="rotate-layout" (click)="startSearch()"></nb-search>
   </nb-action>
-</nb-actions>
+</nb-action>
