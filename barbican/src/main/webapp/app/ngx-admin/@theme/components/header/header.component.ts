@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
     @Input() position = 'normal';
 
     user: any;
-    userMenu = [{ title: 'Profile' }, { title: 'Log out' }];
+    userMenu = [{ title: 'Profile' }, { title: 'Log out' },  { title: 'Register' }];
     inProduction: boolean;
     isNavbarCollapsed: boolean;
     languages: any[];
