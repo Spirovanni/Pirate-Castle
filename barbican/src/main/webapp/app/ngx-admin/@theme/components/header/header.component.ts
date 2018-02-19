@@ -20,7 +20,11 @@ export class HeaderComponent implements OnInit {
     @Input() position = 'normal';
 
     user: any;
-    userMenu = [{ title: 'Profile' }, { title: 'Log out' },  { title: 'Register' }];
+    userMenu = [
+        { title: 'Profile', icon: 'ion-ios-person-outline', link: 'register'},
+        { title: 'Register', icon: 'ion-ios-personadd-outline'},
+        { title: 'Log out', icon: 'ion-ios-cloudy-night-outline', link: 'forms/inputs'}
+        ];
     inProduction: boolean;
     isNavbarCollapsed: boolean;
     languages: any[];
